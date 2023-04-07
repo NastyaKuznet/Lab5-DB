@@ -1,0 +1,35 @@
+{
+  "name": "Book",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "isPrimary": true
+    },
+    {
+      "name": "fullNameWriter",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "yearPublication",
+      "type": "datetime",
+      "isPrimary": false
+    },
+    {
+      "name": "shelf",
+      "type": "int",
+      "isPrimary": false
+    },
+    {
+      "name": "wardrobe",
+      "type": "int",
+      "isPrimary": false
+    }
+  ]
+}
